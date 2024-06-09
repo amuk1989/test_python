@@ -1,8 +1,10 @@
 ﻿print("Hello")
 
+
 def isEven(value):
-    x = int(value/2)
+    x = int(value / 2)
     return x * 2 == value
+
 
 while True:
     number = input("Enter the number: ")
